@@ -1,0 +1,22 @@
+--- 1. Install FFmpeg ---
+Windows users should be able to download windows builds from https://ffmpeg.org/download.html#build-windows and have a .bat
+that will launch ffmpeg.
+
+Mac users best install using Homebrew using Terminal (http://brew.sh/). Once Brew is installed use this command:
+>brew install ffmpeg
+
+Linux users best use their package managers. Theres a good chance that ffmpeg is called that under whichever distro you use
+so for example Ubuntu/Linux Mint/Elementary users would type in:
+>sudo apt-get install ffmpeg
+
+
+--- 2. Obtain Song and Image ---
+Best places to obtain a song would be iTunes, Bandcamp, Google Play or Lossless CD Rips. And images should be the album art,
+but feel free to use another image, higher quality the image the better of course! Have these files ready in your file manager.
+
+
+--- 3. The Magic! ---
+Alright now that ffmpeg is set up and you have you're song and image it's time to begin!
+
+Open the .bat on Windows and open Terminal on Mac and Linux.
+
