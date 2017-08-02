@@ -21,7 +21,10 @@ Alright now that ffmpeg is set up and you have you're song and image it's time t
 Open the .bat on Windows and open Terminal on Mac and Linux.
 
 This is the command you edit:
->ffmpeg -loop 1 -r 2 -i IMAGE.JPG -i SONG.FLAC -vf scale=-1080:1080 -c:v libx264 -preset slow -tune stillimage -crf 18 -c:a copy -shortest -pix_fmt yuv420p -threads 0 output.mkv
+
+---
+ffmpeg -loop 1 -r 2 -i IMAGE.JPG -i SONG.FLAC -vf scale=-1080:1080 -c:v libx264 -preset slow -tune stillimage -crf 18 -c:a copy -shortest -pix_fmt yuv420p -threads 0 output.mkv
+---
 
 First off use the left/right arrow keys to move the cursor, completely delete the IMAGE.JPG placeholder and then drag in the image
 into the terminal, you should now see the path to your image file inside the terminal. Make sure it is spaced nicely (should only
